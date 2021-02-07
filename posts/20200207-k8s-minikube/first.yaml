@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+
+# One or more containers do not have resource limits - this could starve other processes
+# このワーニングは無視する
