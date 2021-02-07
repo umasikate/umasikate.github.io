@@ -5,10 +5,11 @@
 }
 
 
-.first{
+p{
+    padding: 3px;
+    font-size: 14;
     color: white;
-    height: 50vh;
-    text-align:center;
+    text-align: center;
 }
 
 body {
@@ -19,7 +20,8 @@ body {
 .main {
     position: absolute;
     display: flex;
-    top: : 50%;
+    flex-direction: column;
+    height: 1vh;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -29,12 +31,12 @@ body {
     position: relative;
     width: 80px;
     height: 80px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 50px;
     transition: all .8s;
 }
 
-.icon:hover{
+.icon:hover:nth-child(4){
     background: #BFD79D;
     box-shadow: 0 0 20px #BFD79D;
 }
@@ -49,7 +51,7 @@ body {
     box-shadow: 0 0 20px #F5ADD8;
 }
 
-.icon:hover:nth-child(4){
+.icon:hover{
     background: #E27D80;
     box-shadow: 0 0 20px #E27D80;
 }
