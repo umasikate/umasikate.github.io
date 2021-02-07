@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+
+
+.first{
+    color: white;
+    height: 50vh;
+    text-align:center;
+}
+
+body {
+    background: gray;
+}
+
+
+.main {
+    position: absolute;
+    display: flex;
+    top: : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50px;
+    transition: all .8s;
+}
+
+.icon:hover{
+    background: #BFD79D;
+    box-shadow: 0 0 20px #BFD79D;
+}
+
+.icon:hover:nth-child(2){
+    background: #BAADF5;
+    box-shadow: 0 0 20px #BAADF5;
+}
+
+.icon:hover:nth-child(3){
+    background: #ADF5D1;
+    box-shadow: 0 0 20px #ADF5D1;
+}
+
+.icon:hover:nth-child(4){
+    background: #F5ADD8;
+    box-shadow: 0 0 20px #F5ADD8;
+}
+
+.icon i{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+svg circle{
+    stroke-dasharray: 150px;
+    transition: all .8s;
+}
+
+.icon:hover svg circle{
+    stroke-dasharray: 220px;
+}
