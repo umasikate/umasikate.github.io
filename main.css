@@ -45,13 +45,19 @@ body {
 }
 
 .icon:hover:nth-child(3){
-    background: #ADF5D1;
-    box-shadow: 0 0 20px #ADF5D1;
+    background: #F5ADD8;
+    box-shadow: 0 0 20px #F5ADD8;
 }
 
 .icon:hover:nth-child(4){
-    background: #F5ADD8;
-    box-shadow: 0 0 20px #F5ADD8;
+    background: #E27D80;
+    box-shadow: 0 0 20px #E27D80;
+}
+
+
+.icon:hover:nth-child(5){
+    background: #BC986A;
+    box-shadow: 0 0 20px #BC986A;
 }
 
 .icon i{
